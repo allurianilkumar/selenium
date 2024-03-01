@@ -3,9 +3,9 @@
 require 'selenium-webdriver'
 
 # for chrome web browser
-#driver = Selenium::WebDriver.for :chrome
+driver = Selenium::WebDriver.for :chrome
 # for firefox web brower
-driver = Selenium::WebDriver.for :firefox
+# driver = Selenium::WebDriver.for :firefox
 driver.navigate.to "https://www.google.com/"
 driver.close
 

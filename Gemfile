@@ -76,6 +76,7 @@ end
 
 group :test do
   gem 'rspec-rails'
+  gem "shoulda-matchers", "~> 6.1"
 end
 
 gem "reline", "~> 0.4.3"
@@ -91,3 +92,5 @@ gem "netrc", "~> 0.11.0"
 gem "test-unit", "~> 3.6"
 
 gem "database_cleaner", "~> 2.0"
+
+
