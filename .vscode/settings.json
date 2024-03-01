@@ -1,0 +1,4 @@
+{
+    "rubyLsp.rubyVersionManager": "none",
+    "rubocop.mode": "enableUnconditionally"
+}
